@@ -1,0 +1,42 @@
+.formulario{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.rotulo{
+    font-size: 28px;
+    font-weight: 700;
+    display:block;
+    margin-bottom: 10px;
+}
+
+.campo-numero{
+    margin-bottom: 30px;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 150px;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    height: 25px;
+    background: transparent
+}
+
+input:focus{
+    outline: none;
+}
+
+.botao{
+    border: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 150px;
+    border-radius: 50px;
+}
+
+body{
+    background-color: #FDCA50;
+}

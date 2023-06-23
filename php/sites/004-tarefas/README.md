@@ -1,0 +1,5 @@
+- criar campo datetime
+- editar/atualizar um registro
+- inserir novo registro (estado)
+- conexão com o banco de dados
+- includes

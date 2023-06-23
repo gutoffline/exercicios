@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('assets/fundo-horizontal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Source Sans Pro';
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 699px) {
+    body {
+        background-image: url('assets/fundo-vertical.jpg');
+        background-position: center;
+    }
+}
+
+.ferramentas,
+.projetos,
+.conteudo-principal {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+.titulo {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.titulo em {
+    font-weight: 900;
+    font-style: normal;
+}
+
+.subtitulo {
+    font-size: 30px;
+}
+
+.destaque {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    display: inline-block;
+}
+
+.icones ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.icones li img {
+    filter: invert(1);
+    width: 40px;
+    margin: 10px;
+    border-radius: 50px;
+    transition: transform 2s;
+}
+
+.icones li img:hover {
+    transform: rotate(180deg);
+}
+
+
+

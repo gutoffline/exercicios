@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-inteiro{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    text-align: center;
+    background-image: url('imagens/fundo-banner.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo{
+    font-family: 'Cookie';
+    font-size: 60px;
+    line-height: 35px;
+    color: #6B705B;
+    font-weight: normal;
+}
+
+.titulo-pequeno{
+    font-size: 30px;
+}
+
+.menu-principal{
+    background-color: #6B705B;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto';
+    color: #FFE8D6;
+}
+
+.item-menu{
+    color: #FFE8D6;
+}
+
+.imagem-banner{
+    width: 100%;
+    border-bottom: 3px solid #6B705B;
+}
+
+.titulo-cardapio{
+    margin-top: 50px;
+    font-family: 'Cookie';
+    font-weight: normal;
+    font-size: 45px;
+    color: #CB997E;
+    text-align: center;
+}
+
+.lista-cardapio{
+    column-count: 4;
+    /* column-gap: 100px; */
+    padding: 68px;
+    font-family: 'Roboto';
+    color: #6B705C;
+}
+
