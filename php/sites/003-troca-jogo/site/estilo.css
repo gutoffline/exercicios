@@ -1,0 +1,11 @@
+.bt-roxo{
+    border-color: blueviolet ;
+}
+
+.bt-roxo:hover{
+    background: blueviolet ;
+}
+
+.mudar:hover{
+    opacity: 0.9;
+}
