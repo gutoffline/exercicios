@@ -1,0 +1,88 @@
+body{
+    font-family: Verdana;
+    line-height: 1.6;
+    background: #5cdb95;
+}
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.lugar{
+    border: 1px solid #ccc;
+    border-color: #ccc #999 #999 #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+}
+
+.lugar h2{
+    border-bottom: 1px dashed #05386b;
+    margin: 0;
+}
+
+.lugar a{
+    color: #05386b;
+    font-weight: bold;
+    /* font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none; */
+}
+
+h1 a{
+    color: #edf5e1;
+    text-decoration: none;
+}
+
+h1 a:hover{
+    background: #edf5e1;
+    color: #5cdb95;
+}
+
+/* 
+    comportamentos (pseudo seletores)
+    :hover --> ao passar o mouse
+    :visited --> link que já foi visitado
+    :active --> link que está clicado
+    :focus --> link que está com foco do teclado
+*/
+
+.lugar img{
+    border: 1px solid #05386b;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    float: left;
+}
+
+.clear{
+    clear: both
+}
+
+
+.lugares{
+    width: 660px;
+    float: left;
+}
+
+.lateral{
+    background: #8ee4af;
+    border: 1px solid #379683;
+    padding: 10px;
+    width: 260px;
+    float: right;
+}
+
+.lateral h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.lateral ol{
+    font-size: 12px;
+}
+
+.rodape{
+    font-size: 12px;
+    text-align: center;
+}

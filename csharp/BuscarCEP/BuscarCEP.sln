@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscarCEP", "BuscarCEP\BuscarCEP.csproj", "{BEFEDE6E-7695-48C6-AA85-36886669C9DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEFEDE6E-7695-48C6-AA85-36886669C9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFEDE6E-7695-48C6-AA85-36886669C9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFEDE6E-7695-48C6-AA85-36886669C9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFEDE6E-7695-48C6-AA85-36886669C9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B6D8949-251D-4C82-8C7E-F22B4A507E5A}
+	EndGlobalSection
+EndGlobal

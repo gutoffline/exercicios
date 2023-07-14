@@ -1,0 +1,12 @@
+C:\Users\Administrador\Documents\Sistema1\Cadastros\bin\Debug\Cadastros.exe.config
+C:\Users\Administrador\Documents\Sistema1\Cadastros\bin\Debug\Cadastros.exe
+C:\Users\Administrador\Documents\Sistema1\Cadastros\bin\Debug\Cadastros.pdb
+C:\Users\Administrador\Documents\Sistema1\Cadastros\obj\Debug\Cadastros.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\Sistema1\Cadastros\obj\Debug\Cadastros.Form1.resources
+C:\Users\Administrador\Documents\Sistema1\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+C:\Users\Administrador\Documents\Sistema1\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\Sistema1\Cadastros\obj\Debug\Cadastros.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Sistema1\Cadastros\obj\Debug\Cadastros.exe
+C:\Users\Administrador\Documents\Sistema1\Cadastros\obj\Debug\Cadastros.pdb
+C:\Users\Administrador\Documents\Sistema1\Cadastros\obj\Debug\Cadastros.frmClientes.resources
+C:\Users\Administrador\Documents\Sistema1\Cadastros\obj\Debug\Cadastros.frmFuncionarios.resources

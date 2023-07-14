@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Alma do Som</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <div class="logo">
+                A Alma <br>Do SOM
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">ESPECIFICAÇÃO</a></li>
+                    <li><a href="#">PRODUTOS</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article class="conteudo">
+            <div class="coluna-esquerda">
+                <h1>A <br>Alma <br>Do Som
+            </div>
+
+            <div class="coluna-direita">
+                <p id="rotulo">Clique aqui para ouvir</p>
+                <img src="images/play.png" id="controle-musica" onclick="PlayPause();">
+            </div>
+        </article>
+    </main>
+    <audio id="musica">
+        <source src="audio/musica.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="js/funcoes.js"></script>
+</body>
+</html>

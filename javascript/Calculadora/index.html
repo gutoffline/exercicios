@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div class="area-calculadora">
+        <form id="calculadora">
+            <input id="visor" readonly>
+            <div class="botoes">
+                <button type="button" onclick="LimparVisor();">C</button>
+                <button type="button" onclick="RaizQuadrada();">&radic;</button>
+                <button type="button" onclick="Apagar();">&larr;</button>
+                <button type="button" onclick="Inserir(0);">0</button>
+
+                <button type="button" onclick="Inserir(7);">7</button>
+                <button type="button" onclick="Inserir(8);">8</button>
+                <button type="button" onclick="Inserir(9);">9</button>
+                <button type="button" onclick="Inserir('*');">*</button>
+
+                <button type="button" onclick="Inserir(4);">4</button>
+                <button type="button" onclick="Inserir(5);">5</button>
+                <button type="button" onclick="Inserir(6);">6</button>
+                <button type="button" onclick="Inserir('/');">/</button>
+
+                <button type="button" onclick="Inserir(1);">1</button>
+                <button type="button" onclick="Inserir(2);">2</button>
+                <button type="button" onclick="Inserir(3);">3</button>
+                <button type="button" onclick="Inserir('-');">-</button>
+
+                <button type="button" onclick="Inserir('.');">.</button>
+                <button type="button" onclick="Inserir('+');">+</button>
+                <button type="button" onclick="Calcular();">=</button>
+            </div>
+        </form>
+    </div>
+
+    
+    <script src="js/funcoes.js"></script>
+</body>
+</html>

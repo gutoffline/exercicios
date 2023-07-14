@@ -1,0 +1,28 @@
+body{
+    background: #b700ff;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    color:lightgreen;
+    /* text-decoration: underline; */
+}
+
+a{
+    font-size: 22px;
+    /* text-decoration: none; */
+    color:white; 
+}
+
+hr{
+    height: 10px;
+}
+
+.vermelho{
+    background: red;
+}
+
+.azul{
+    background: blue;
+}

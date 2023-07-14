@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 008</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <h2>Faça um programa que calcule o número médio de alunos por turma para cada uma das 3 turmas que o professor possui. Para isto, peça a quantidade de alunos para cada turma. As turmas não podem ter mais de 40 alunos.</h2>
+
+    <form>
+        <label for="inicial">Quantidade de alunos da Turma 1:</label>
+        <input type="number" id="turma1" max="40"><br>
+        <label for="inicial">Quantidade de alunos da Turma 2:</label>
+        <input type="number" id="turma2" max="40"><br>
+        <label for="inicial">Quantidade de alunos da Turma 3:</label>
+        <input type="number" id="turma3" max="40"><br>
+        <button type="button" onclick="MediaDeAlunos();">Calcular a média de alunos</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="js/ex-008.js"></script>
+</body>
+</html>

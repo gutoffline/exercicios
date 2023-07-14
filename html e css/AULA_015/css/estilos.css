@@ -1,0 +1,64 @@
+body{
+    background: tomato;
+    color: white;
+    text-align: center;
+    font-family: arial;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.imagem{
+    /* border: 1px solid black; */
+    transform: scale(0.5) rotate(30deg);
+    animation: piscar 0.3s infinite;
+}
+
+@keyframes piscar{
+    0%{
+        opacity: 1;
+        transform: scale(0.8);
+    }
+
+    100%{
+        opacity: 0.2;
+        transform: scale(1);
+    }
+}
+
+.texto{
+    text-align: justify;
+    column-count: 3;
+    column-gap: 30px;
+    line-height: 22px;
+}
+
+@media only screen and (max-width: 699px) and (min-width: 500px){
+    body{
+        /* background: darkblue; */
+    }
+
+    .texto{
+        column-count: 2;
+    }
+
+    .imagem{
+        transform: translateX(100px);
+    }
+}
+
+@media only screen and (max-width: 499px){
+    body{
+        background: darkgreen;
+    }
+    .imagem{
+        display: none;
+    }
+
+    .texto{
+        column-count: 1;
+    }
+}
+
+

@@ -1,0 +1,10 @@
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\bin\Debug\BuscarCEP.exe.config
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\bin\Debug\BuscarCEP.exe
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\bin\Debug\BuscarCEP.pdb
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\obj\Debug\BuscarCEP.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\obj\Debug\BuscarCEP.Form1.resources
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\obj\Debug\BuscarCEP.Properties.Resources.resources
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\obj\Debug\BuscarCEP.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\obj\Debug\BuscarCEP.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\obj\Debug\BuscarCEP.exe
+C:\Users\Administrador\Documents\Projetos\TI2018\2019\Marco\BuscarCEP\BuscarCEP\obj\Debug\BuscarCEP.pdb

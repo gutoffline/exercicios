@@ -1,0 +1,23 @@
+.painel-1, .painel-2, .painel-3{
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    box-sizing: border-box;
+    border:   1px solid #ececec;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px ;
+}
+
+input, select, textarea, button{
+    margin: 5px;
+    padding: 5px;
+    width: 400px;
+    font-size: 16px;
+}
+
+.painel-2,
+.painel-3
+{
+    display: none;
+}

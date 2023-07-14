@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    <link rel="stylesheet" href="css/rpg.css" type="text/css">
+</head>
+<body>
+    <div class="painel-1">
+        <input placeholder="Qual seu nome?" id="nome"><br>
+        <select id="raca">
+            <option>Informe sua raça</option>
+            <option value="orc.png">Orc</option>
+            <option value="anao.png">Anão</option>
+            <option value="humano.png">Humano</option>
+        </select>
+        <br>
+        <select id="classe">
+            <option>Informe sua classe</option>
+            <option value="mago.png">Mago</option>
+            <option value="guerreiro.png">Guerreiro</option>
+        </select>
+        <br>
+        <textarea id="historia" placeholder="Conte mais sobre você"></textarea>
+        <br>
+        <button type="button" onclick="CriarFicha();">Criar Ficha</button>
+    </div>
+    <div class="painel-2">
+        <div class="ficha"></div>
+        <button type="button" onclick="ExibirFicha();">Alterar Personagem</button>
+        <button type="button" onclick="Iniciar();">Iniciar Aventura</button>
+    </div>
+
+    <div class="painel-3">
+        <p>
+            Você está andando por ai .... Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellendus eius rerum aspernatur officiis? Voluptates expedita vel consequuntur repellendus incidunt quasi illo nisi, omnis doloremque adipisci architecto eius numquam hic.
+        </p>
+    </div>
+    <script src="js/rpg.js"></script>
+</body>
+</html>
