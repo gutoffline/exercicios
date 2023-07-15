@@ -1,0 +1,5 @@
+Guto		36
+Renata		30
+Fernanda		20
+Renato		18
+Fernando		25
